@@ -1,0 +1,106 @@
+body {
+  font-family: 'Anybody', normal;
+  columns: #f8f8f8;
+  font-weight: 700;
+  background: #222222;
+}
+.contacts button {
+  background-color: #f8f8f8;
+  color: #090909;
+}
+
+.menu li a {
+  color: #7d7d7d;
+}
+
+.menu a:hover {
+  color: #f8f8f8;
+}
+
+.line {
+  border-bottom: 1px solid #fff;
+}
+
+.short {
+  color: #f8f8f8;
+}
+
+.name {
+  color: #f8f8f8;
+}
+
+.textab {
+  color: #f8f8f8;
+}
+.lg_vertical {
+  color: #7d7d7d;
+}
+
+.workS {
+  color: #f8f8f8;
+}
+
+.eng {
+  color: #7d7d7d;
+}
+
+.eng:hover {
+  color: #f8f8f8;
+}
+
+.ru {
+  color: #7d7d7d;
+}
+
+.ru:hover {
+  color: #f8f8f8;
+}
+
+.midline {
+  color: #f8f8f8;
+}
+
+.headimage {
+  background: #090909;
+}
+
+.aboutme {
+  background: #090909;
+}
+
+h1 {
+  color: #f8f8f8;
+}
+
+.portfolio {
+  background: #090909;
+}
+
+.portfolio p {
+  color: #f8f8f8;
+}
+
+.footer p {
+  color: #7d7d7d;
+}
+
+.lang p {
+  color: #f8f8f8;
+}
+
+.contacts p {
+  color: #f8f8f8;
+}
+
+.theme {
+  background: #000;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.change-theme[data-theme='dark'] {
+  display: none;
+}
+
+.change-theme[data-theme='light'] {
+  display: block;
+}

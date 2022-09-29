@@ -1,0 +1,81 @@
+body {
+  font-family: 'Anybody', normal;
+  columns: #070707;
+  font-weight: 700;
+}
+.contacts button {
+  background-color: #070707;
+  color: #f6f6f6;
+}
+
+.menu li a {
+  color: #828282;
+}
+
+.menu a:hover {
+  color: #070707;
+}
+
+.line {
+  border-bottom: 1px solid #000;
+}
+
+.name {
+  color: #070707;
+}
+
+.lg_vertical {
+  color: #828282;
+}
+
+.eng {
+  color: #828282;
+}
+
+.eng:hover {
+  color: #070707;
+}
+
+.ru {
+  color: #828282;
+}
+
+.ru:hover {
+  color: #070707;
+}
+
+.midline {
+  color: #070707;
+}
+
+.headimage {
+  background: #f6f6f6;
+}
+
+.aboutme {
+  background: #f6f6f6;
+}
+
+h1 {
+  color: #070707;
+}
+
+.portfolio {
+  background: #f6f6f6;
+}
+
+.footer p {
+  color: #828282;
+}
+
+.theme {
+  background: #fff;
+}
+
+.change-theme[data-theme='dark'] {
+  display: block;
+}
+
+.change-theme[data-theme='light'] {
+  display: none;
+}

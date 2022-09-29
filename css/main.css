@@ -1,0 +1,342 @@
+body {
+  font-family: 'Anybody', normal;
+  columns: #070707;
+  font-weight: 700;
+}
+
+ul,
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  margin-top: 33px;
+}
+
+.container {
+  width: 944px;
+  margin: 0 auto;
+  font-weight: 700;
+}
+.contacts button {
+  position: relative;
+  border-radius: 100px;
+  width: 180px;
+  height: 42px;
+  background-color: #070707;
+  color: #f6f6f6;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 86px;
+}
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  font-size: 18px;
+  color: #828282;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.menu a:hover {
+  color: #070707;
+}
+
+.menu li {
+  margin-right: 154px;
+}
+
+.line {
+  border-bottom: 1px solid #000;
+  width: 944px;
+  height: 0px;
+  margin-top: 32px;
+}
+
+.under {
+  display: flex;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.name {
+  font-size: 49px;
+  color: #070707;
+  height: 124px;
+  width: 119px;
+  margin-right: 297px;
+}
+
+.short {
+  width: 156px;
+  height: 44px;
+  font-size: 18px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.stext {
+  white-space: nowrap;
+}
+
+.lg_vertical {
+  font-size: 16px;
+  color: #828282;
+  margin-left: auto;
+  margin-right: -10px;
+  margin-top: 52px;
+}
+
+.eng {
+  transform: rotate(-90deg);
+  color: #828282;
+}
+
+.eng:hover {
+  color: #070707;
+}
+
+.ru {
+  transform: rotate(-90deg);
+  color: #828282;
+}
+
+.ru:hover {
+  color: #070707;
+}
+
+.midline {
+  transform: rotate(-90deg);
+  color: #070707;
+}
+
+.headimage {
+  margin-top: 31px;
+  height: 450px;
+  width: 100%;
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 104px;
+  background: #f6f6f6;
+}
+
+.headimage img {
+  height: 450px;
+  width: 600px;
+}
+
+.imgtext {
+  margin-top: 110px;
+}
+
+.aboutme {
+  padding-top: 120px;
+  margin: auto;
+  width: 100%;
+  height: 506px;
+  background: #f6f6f6;
+}
+
+h1 {
+  width: 156px;
+  height: 43px;
+  font-size: 34px;
+  color: #070707;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textab {
+  font-size: 18px;
+  height: 218px;
+  width: 485px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.t {
+  margin-bottom: 27px;
+}
+
+.skills {
+  height: 610px;
+  width: 100%;
+  display: block;
+}
+
+.workS {
+  font-size: 18px;
+  margin-top: 69px;
+  text-align: center;
+}
+
+.skills h1 {
+  text-align: center;
+  font-size: 34px;
+}
+
+.lang {
+  height: 206px;
+  width: 166px;
+  text-align: center;
+}
+
+.box {
+  width: 100%;
+  margin-top: 83px;
+  display: flex;
+  margin-left: 135px;
+}
+
+.img1 {
+  width: 81px;
+  height: 80px;
+  margin-left: 38px;
+  margin-right: 38px;
+}
+
+.img2 {
+  width: 81px;
+  height: 80px;
+  margin-left: 38px;
+  margin-right: 38px;
+}
+
+.img3 {
+  width: 81px;
+  height: 80px;
+  margin-left: 38px;
+  margin-right: 38px;
+}
+
+.img4 {
+  width: 81px;
+  height: 80px;
+  margin-left: 38px;
+  margin-right: 38px;
+}
+
+.stars {
+  margin-top: 40px;
+  height: 20px;
+  width: 20px;
+}
+
+.portfolio {
+  padding-top: 113px;
+  display: block;
+  width: 100%;
+  height: 2253px;
+  background: #f6f6f6;
+  font-size: 18px;
+  text-align: center;
+}
+
+.portfolio h1 {
+  font-size: 34px;
+  text-align: center;
+}
+
+.port1 {
+  width: 916px;
+  height: 510px;
+  margin-top: 47px;
+  margin-bottom: 45px;
+}
+
+.port2 {
+  width: 916px;
+  height: 522px;
+  margin-top: 99px;
+  margin-bottom: 45px;
+}
+
+.port3 {
+  width: 936px;
+  height: 522px;
+  margin-top: 99px;
+  margin-bottom: 45px;
+}
+
+.contacts {
+  margin-top: 114px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contacts h1 {
+  font-size: 34px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.t1 {
+  margin-top: 50px;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #828282;
+}
+
+/* Responsive starts here */
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+
+  .menu li {
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+.theme {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0, 1);
+  border-radius: 10px;
+}
+
+.theme svg {
+  cursor: pointer;
+}
