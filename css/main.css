@@ -61,6 +61,7 @@ li {
   display: flex;
   margin-top: 40px;
   text-align: center;
+  width: 100%;
 }
 
 .name {
@@ -301,4 +302,21 @@ h1 {
 
 .theme svg {
   cursor: pointer;
+}
+
+.modalWindow {
+  border-radius: 100px;
+  width: 120px;
+  height: 42px;
+  background-color: #070707;
+  color: #f6f6f6;
+  font-size: 18px;
+  margin-top: -10px;
+  margin-bottom: 86px;
+  position: absolute;
+  right: 35px;
+}
+
+.btn .btn-primary {
+  display: none;
 }
